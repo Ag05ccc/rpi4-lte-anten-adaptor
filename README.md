@@ -81,6 +81,10 @@ Başka bir kenar montajlı SMA kullanacaksanız pad ölçülerini footprint ile 
 | `drc-raporu.txt` | DRC raporu |
 | `onizleme-ust.png`, `onizleme-alt.png` | Kartın üst ve alt görünümü |
 
+## Wi-Fi sürümü
+
+[`wifi/`](wifi/README.md) klasöründe aynı biçimde, tek hatlı bir kart daha var: Pi 4'ün dahili Wi-Fi/Bluetooth radyosu için 1 × U.FL → 1 × SMA adaptörü. LTE kartından farklı olarak Pi üzerinde lehim değişikliği gerektirir; ayrıntılar ve uyarılar o klasördeki README'de.
+
 ## Nasıl tasarlandı
 
 KiCad 9.0.9 ile, [KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server) v2.8.3 üzerinden Claude tarafından tasarlandı.
