@@ -1,0 +1,9 @@
+# KiCad yerel/geçici dosyaları
+*.kicad_prl
+*-backups/
+.mcp-backups/
+fp-info-cache
+*.lck
+_autosave-*
+*.bak
+~*
